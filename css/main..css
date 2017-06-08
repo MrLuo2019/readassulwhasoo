@@ -1,0 +1,260 @@
+*{
+    margin: 0 0;
+}
+.content{
+    width: 750px;
+    height: 1218px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.head{
+    background: url("../images/head.jpg") no-repeat;
+    width: 750px;
+    height: 204px;
+    position: fixed;
+    top: 0px;
+}
+.page1 .pageview{
+    background: url("../images/page1/bg.jpg");
+    width: 750px;
+    height: 1014px;
+    position: absolute;
+    top: 204px;
+}
+.page2 .pageview {
+    background: url("../images/page2/bg.jpg");
+    width: 750px;
+    height: 1006px;
+    position: absolute;
+    top: 204px;
+}
+.page3 .pageview{
+    background: url("../images/page3/bg.jpg");
+    width: 750px;
+    height: 1006px;
+    position: absolute;
+    top: 204px;
+}
+.page4 .pageview{
+    background:  url("../images/page4/bg.jpg");
+    width: 750px;
+    height: 1006px;
+    position: absolute;
+    top: 204px;
+}
+.pagecontent{
+    width: 100%;
+    height: 1000px;
+    top: 204px;
+    position: absolute;
+}
+.pagecontent .form{
+
+    width:  750px;
+    height: 403px;
+    margin: 180px auto;
+
+}
+.pagecontent .formtitle{
+    background: url("../images/page4/title1.png");
+    width: 750px;
+    height: 200px;
+}
+.pagecontent .formcontent{
+    background: url("../images/page4/form.png");
+    width: 539px;
+    height: 403px;
+    margin: 10px auto;
+    position: relative;
+}
+.pagecontent .submit{
+    background: url("../images/tools/confirm.jpg");
+    width: 432px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.pagecontent .actrule{
+    background: url("../images/tools/actrule_button.png");
+    width: 159px;
+    height: 42px;
+    margin: 10px auto;
+}
+.formui{
+    width: 328px;
+    height: 65px;
+    margin-left: 200px;
+    background: url("../images/tools/trans.png");
+    border: 0px;
+    font-size: 30px;
+    position: absolute;
+}
+input{
+    border: 0px;
+
+}
+.name{
+    margin-top: 0px;
+}
+.mobile{
+    top:95px;
+}
+.store{
+    top: 200px;
+    font-size: 25px;
+    align-items: center;
+}
+
+
+.submitdone{
+
+    width: 750px;
+    height: 100%;
+
+}
+.submitdone .qrcode{
+    margin: 0 auto;
+    width: 517px;
+    height: 559px;
+    position: absolute;
+    top:200px;
+    left: 120px;
+}
+.foot2{
+    top: 759px;
+position: absolute;
+}
+.submitfail{
+    background: url("../images/page4/submit_fail.png") no-repeat;
+    width: 430px;
+    height: 513px;
+    margin: 400px auto;
+    overflow: hidden;
+}
+.submitfail .submit{
+margin: 400px auto;
+    background: url("../images/tools/yes.png");
+}
+.sword{
+    background: url("../images/tools/sword.png");
+    width: 34px;
+    height: 35px;
+    position: absolute;
+    left: 365px;
+    bottom: 20px;
+}
+.actrulepage{
+    background: url("../images/tools/black.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.actcontent{
+    background: url("../images/page4/act.png");
+    width: 605px;
+    height: 893px;
+    margin: 200px auto;
+    overflow: hidden;
+    position: relative;
+}
+.back{
+    background: url("../images/tools/back.png");
+    width: 431px;
+    height: 72px;
+    margin: -320px auto;
+}
+.page2 .scorllpageview{
+    width: 653px;
+    height: 500px;
+    margin: 410px auto;
+    overflow-y: scroll;
+}
+.actrulepage .actword{
+    width: 505px;
+    height: 300px;
+    margin: 400px auto;
+    overflow-y: scroll;
+}
+#main{
+ height: 100%;
+}
+.citylist{
+    position: absolute;
+    top: 204px;
+    width: 100%;
+    height: auto;
+}
+.listItem{
+    width: 100%;
+    height: 135px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+.cityInfoDis{
+    position: absolute;
+    top: 204px;
+    width: 100%;
+    height: 1000px;
+    background: #fff;
+    display: none;
+}
+.storeicons{
+    width: 100%;
+    height: 113px;
+    margin-top: 80px;
+}
+.infos{
+    padding-top: 100px;
+
+}
+.infos p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'SimSun';
+
+}
+
+.booker{
+    margin-top: 50px;
+}
+.bookeritem{
+    margin-top: 30px;
+    text-decoration: underline;
+}
+#map{
+    width: 720px;
+    height: 800px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 25px #000000;
+}
+#mapcontent{
+    width: 100%;
+    height: 100%;
+}
+.mapclose{
+    background: url("../images/pagecity/close.png");
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top:755px;
+    left: 315px;
+}
+.listItemback{
+    background: url("../images/pagecity/bak.png");
+    width: 37px;
+    height: 48px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}

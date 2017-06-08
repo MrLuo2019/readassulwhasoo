@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+    var url=window.location.href;
+    var indexx=url.indexOf("?");
+    var direct='wap/index.html';
+    if(indexx>=0)
+    {
+        var params=url.substr(indexx);
+        direct+=params;
+    }
+    window.location.href=direct;
+</script>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=750, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>READ AS Sulwhasoo</title>
+  <link href="css/main..css" type="text/css" rel="stylesheet">
+    <link href="css/Sswiper.css" type="text/css" rel="stylesheet">
+</head>
+<script>
+    !(function(a,b,c,d,e,f){var g="",h=a.sessionStorage,i="__admaster_ta_param__",j="tmDataLayer"!==d?"&dl="+d:"";if(a[f]={},a[d]=a[d]||[],a[d].push({startTime:+new Date,event:"tm.js"}),h){var k=a.location.search,l=new RegExp("[?&]"+i+"=(.*?)(&|#|$)").exec(k)||[];l[1]&&h.setItem(i,l[1]),l=h.getItem(i),l&&(g="&p="+l+"&t="+ +new Date)}var m=b.createElement(c),n=b.getElementsByTagName(c)[0];m.src="//tag.cdnmaster.cn/tmjs/tm.js?id="+e+j+g,m.async=!0,n.parentNode.insertBefore(m,n)})(window,document,"script","tmDataLayer","TM-389435","admaster_tm");
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-100387748-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<body>
+<div class="content">
+
+    <div class="swiper-container" id="main">
+        <div class="swiper-wrapper">
+            <div class="page page1 swiper-slide">
+                <div class="pageview"></div>
+                <div class="sword"></div>
+            </div>
+            <div class="page page2 swiper-slide">
+                <div class="pageview">
+                   <!-- <div class="scorllpageview stop-swiping">
+                        <img src="images/page2/page2_scroll.png">
+                    </div>-->
+
+                </div>
+                <div class="sword"></div>
+            </div>
+            <div class="page page3 swiper-slide">
+                <div class="pageview"></div>
+                <div class="sword"></div>
+            </div>
+            <div class="page pagecity swiper-slide">
+                <div class="citylist pageview">
+                   <!-- <div class="listItem shanghai"></div>
+                    <div class="listItem beijing"></div>
+                    <div class="listItem chengdu"></div>
+                    <div class="listItem hangzhou"></div>
+                    <div class="listItem nanjing"></div>
+                    <div class="listItem xian"></div>
+                    <div class="listItem tianjin"></div>-->
+                </div>
+                <div class="cityInfoDis">
+                    <div class="storeicons">
+                        <div style="width:310px; height: 113px; margin: 0 auto" class="icons">
+                            <img src="images/pagecity/yanyouji.jpg" class="icon1">
+                            <img src="images/pagecity/and.png" class="cc">
+                            <img src="images/pagecity/yanyouji.jpg" class="icon2">
+                        </div>
+                    </div>
+                    <div class="infos">
+                       <!-- <p class="name">南京</p>
+                        <p class="booker">
+                            <p class="bookername">言又几</p>
+                            <p class="bookeritem">asdasdasdasd</p>
+                        </p>-->
+                    </div>
+                    <div class="listItemback"></div>
+                    <div class="map" id="map" style="display: none">
+                        <div id="mapcontent"></div>
+                        <div class="mapclose"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page page4 swiper-slide">
+                <div class="pageview"></div>
+                <div class="pagecontent">
+                    <div class="form" >
+                        <div class="formtitle"></div>
+                        <div class="formcontent">
+                            <input type="text" width="" class="name formui">
+                            <input type='tel' width="" class="mobile formui" maxlength="11">
+                           <!-- <input type="text" width="" class="address formui">-->
+                            <select class="store formui"></select>
+                        </div>
+                        <div class="submit"></div>
+                        <div class="actrule"></div>
+                    </div>
+                    <div class="submitdone" style="display: none" >
+                        <img src="images/page4/submit_done.png" width="517" height="559" class="qrcode">
+                        <img src="images/page4/foot2.png" width="750"  height="304" class="foot2">
+                    </div>
+                    <div class="submitfail" style="display: none">
+                        <div class="submit"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="head"></div>
+        <div class="actrulepage" style="display: none">
+            <div class="actcontent">
+                <div class="actword stop-swiping">
+                    <img src="images/page4/act_word.png">
+                </div>
+                <div class="back"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+<script src="js/utils/jquery-2.1.3.min.js"></script>
+<script src="js/utils/jquerycookie.js"></script>
+<script src="js/utils/wechat.mini.js"></script>
+<script src="js/utils/tweenMax.js"></script>
+<script src="js/utils/Sswiper.js"></script>
+<script src="index.min.js?v=4"></script>
+<script >
+    $(document.body).ready(function(){
+        main.init();
+    })
+</script>
+</html>
